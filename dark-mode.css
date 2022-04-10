@@ -1,0 +1,33 @@
+[data-theme="dark"] {
+  background-color: #111;
+  background-image: url('images/darkTheme.jpg') !important;
+  color: #eee;
+}
+[data-theme="dark"] header{
+  border-color: rgb(44, 44, 44) !important;
+}
+[data-theme="dark"] footer{
+  border-color: rgb(44, 44, 44) !important;
+}
+
+[data-theme="dark"] .bg-black {
+  background-color: #fff !important;
+}
+[data-theme="dark"] .bg-dark {
+  background-color: #eee !important;
+}
+[data-theme="dark"] .bg-light {
+  background-color: #222 !important;
+  border-color: rgb(44, 44, 44);
+}
+[data-theme="dark"] .bg-gray-1 {
+  background-color: #373737;
+  border-color: rgb(44, 44, 44);
+  color: #eee;
+}
+[data-theme="dark"] .bg-gray-2 {
+  background-color: #282828;
+}
+[data-theme="dark"] .btn-dark {
+  background-color:gray;
+}
