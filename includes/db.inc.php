@@ -2,6 +2,6 @@
        $serverName="localhost";
        $userName="root";
        $pass = "";
-       $bdName="toDoList";
+       $bdName="todolist";
        $mysqli=new mysqli($serverName, $userName, $pass, $bdName);
 ?>

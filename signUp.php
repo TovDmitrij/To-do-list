@@ -2,7 +2,7 @@
     include_once 'header.php';
     include 'includes/signUp.inc.php';
 ?>
-    <div class="container-md bg-gray-1">
+    <div class="container-md bg-gray-1" style="margin-top: 100px; margin-bottom: 80px;">
         <form>
             <div class="mb-3 mt-5">
                 <label for="exampleInputEmail1" class="form-label mt-1">Логин</label>

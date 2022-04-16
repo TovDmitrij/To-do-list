@@ -18,7 +18,10 @@
     <title>Document</title>
 </head>
 <body class="bg-image" style="background-image: url('images/lightTheme.jpg'); background-repeat: repeat; background-size: cover;">
-    <header class="bg-light border-bottom border-5">
+    <header class="bg-light border-bottom border-5 fixed-top">
+
+        <!-- Смена темы -->
+
         <div class="col bg-gray-1 container-md position-absolute top-0" style="width: auto; height: auto;">
             <div class="form-check form-switch">
             <form method="post">
@@ -35,6 +38,9 @@
             </div>
             <script src="dark-mode-switch.min.js"></script>
         </div>
+
+        <!-- Меню -->
+
         <form method="get">
             <div class="container px-4">
                 <div class="row gx-5 justify-content-md-center">
